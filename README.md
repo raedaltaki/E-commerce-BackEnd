@@ -18,7 +18,7 @@
 
   ## Installation
 
-    1- Clone the reprository.
+    1- Clone the Repository.
     2- Create a file name ".env" to the root folder.
     3- Add to ".env" file DB_NAME='database name' , DB_USER='your username' , DB_PW='your password'.
     4- Run npm install in the terminal.
@@ -53,7 +53,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
   Walkthrough video: https://drive.google.com/file/d/1UV5BabRUsc3nLFs9-EB4FO5oKXCYoYrI/view
   
-  Reprository: https://github.com/raedaltaki/Ecommerce-BackEnd
+  Repository: https://github.com/raedaltaki/Ecommerce-BackEnd
 
   ## Contributing
 
@@ -66,7 +66,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
   Walkthrough video: https://drive.google.com/file/d/1UV5BabRUsc3nLFs9-EB4FO5oKXCYoYrI/view
   
-  Reprository: https://github.com/raedaltaki/Ecommerce-BackEnd
+  Repository: https://github.com/raedaltaki/Ecommerce-BackEnd
 
   ## Questions
 
