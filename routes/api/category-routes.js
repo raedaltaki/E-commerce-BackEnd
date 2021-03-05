@@ -9,7 +9,6 @@ router.get('/', (req, res) => {
     [
       {
         model: Product,
-        // attributes:[id,category_name]
       }
     ]
   })
@@ -33,8 +32,7 @@ router.get('/:id', (req, res) => {
     include:
     [
       {
-        model: Product,
-        // attributes:[id,category_name]
+        model: Product
       }
     ]
   })
@@ -50,7 +48,7 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-  Category.findAll(req.body)
+  Category.create(req.body)
   .then(data=>
   {
     res.json(data);

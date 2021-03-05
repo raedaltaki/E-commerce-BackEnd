@@ -12,11 +12,10 @@ router.get('/', (req, res) => {
     [
       {
         model: Category,
-        // attributes:[id,category_name]
       },
       {
         model: Tag,
-        through: ProductTag
+        through: ProductTag,
       }
     ]
   })
@@ -44,7 +43,6 @@ router.get('/:id', (req, res) => {
     [
       {
         model: Category,
-        // attributes:[id,category_name]
       },
       {
         model: Tag,
@@ -138,7 +136,17 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-  // delete one product by its `id` value
+  Product.destroy({
+    where:
+    {
+      id:req.params.id
+    }
+  })
+  .then((data) => res.json(data))
+    .catch((err) => {
+      // console.log(err);
+      res.status(400).json(err);
+    });
 });
 
 module.exports = router;
