@@ -25,6 +25,8 @@
     5- Run npm run seed.
     6- Run npm start.
 
+    
+
 
   ## Usage
 
@@ -51,7 +53,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ![Image 1](./assets/images/get-demo.gif)
 ![Image 2](./assets/images/post-demo.gif)
 
-  Walkthrough video: https://drive.google.com/file/d/1UV5BabRUsc3nLFs9-EB4FO5oKXCYoYrI/view
+  Walkthrough video: https://drive.google.com/file/d/1T9Kx8TmyQiaeHoLXJAzLzmutyTtUe9zD/view
   
   Repository: https://github.com/raedaltaki/Ecommerce-BackEnd
 
@@ -64,7 +66,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
   ## Tests
 
-  Walkthrough video: https://drive.google.com/file/d/1UV5BabRUsc3nLFs9-EB4FO5oKXCYoYrI/view
+  Walkthrough video: https://drive.google.com/file/d/1T9Kx8TmyQiaeHoLXJAzLzmutyTtUe9zD/view
   
   Repository: https://github.com/raedaltaki/Ecommerce-BackEnd
 
